@@ -4,9 +4,9 @@ compatibility_date = "2024-09-23"
 pages_build_output_dir = "./dist"
 
 kv_namespaces = [
-	{ binding = "MfaStatus", id = "52c4f6065c8846c89ab71cb40419e342" },
-	{ binding = "LogtoAccessToken", id = "ca2385bd7474479cb34d8e661e9c6194" },
-	{ binding = "UsernameChangeTimelimit", id = "102d5b07a70543f193e11f8bd42d8dfd" }
+	{ binding = "MfaStatus", id = "4166bb505c7648ce8677eaebdd761dd4" },
+	{ binding = "LogtoAccessToken", id = "6daeafa0af8c404f95f51cca6b279b0d" },
+	{ binding = "UsernameChangeTimelimit", id = "4c276afb3fd1434aa917f490b465bbc9" }
 ]
 
 [vars]
