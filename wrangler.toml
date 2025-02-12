@@ -13,7 +13,7 @@ kv_namespaces = [
 ### WEB CLIENT VARIABLES
 ## All the required logto values
 # the url of your logto service. if you are using logto cloud it may look like https://[your_tenant].logto.app
-VITE_LOGTO_ENDPOINT = "https://auth-admin.app.nbtca.space"
+VITE_LOGTO_ENDPOINT = "https://auth.app.nbtca.space"
 # the appid of your CLIENT SPA application
 VITE_LOGTO_APPID = "yc25onuvq8roge4lor7hp"
 # the logto core resource, do not change <= this is only temporary
@@ -33,6 +33,13 @@ VITE_ROOT = "https://myid.app.nbtca.space"
 VITE_SUPPORT_EMAIL = "contact@nbtca.space"
 # the url that users can visit to view the privacy policy/terms of service of your brand. needs to be a full url
 VITE_LEGAL_URL = "https://github.com/nbtca"
+
+### WORKER VARIABLES
+## Required Logto values
+# the url of your logto service. if you are using logto cloud it may look like https://[your_tenant].logto.app
+LOGTO_DOMAIN = "https://auth.app.nbtca.space"
+# the default resource of your logto application. If you are on a self hosted instance it will be "https://default.logto.app/api", if you are using logto cloud it will look someting like "https://v12345.logto.app/api"
+LOGTO_DEFAULT_RESOURCE = "https://default.logto.app/api"
 
 # settings for avatar nsfw checking. use in conjunction with https://github.com/t2vee/nsfwjs-avatar-service
 AVATAR_API = ""
