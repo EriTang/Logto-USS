@@ -13,26 +13,26 @@ kv_namespaces = [
 ### WEB CLIENT VARIABLES
 ## All the required logto values
 # the url of your logto service. if you are using logto cloud it may look like https://[your_tenant].logto.app
-VITE_LOGTO_ENDPOINT = https://auth-admin.app.nbtca.space
+VITE_LOGTO_ENDPOINT = "https://auth-admin.app.nbtca.space"
 # the appid of your CLIENT SPA application
-VITE_LOGTO_APPID = w63tefmcd7wbvj3bzduxh
+VITE_LOGTO_APPID = "w63tefmcd7wbvj3bzduxh"
 # the logto core resource, do not change <= this is only temporary
-VITE_LOGTO_CORE_RESOURCE = https://default.logto.app/api
+VITE_LOGTO_CORE_RESOURCE = "https://default.logto.app/api"
 # the resources the user should have access to use the dashboard. Should be in array format. e.g: '["https://default.logto.app/api", "https://myresouce.logto.app"]'
 VITE_LOGTO_RESOURCES = '["https://default.logto.app/api"]' # <= do not change (temporary)
 
 ## Extra endpoints
 # the url that the dashboard is served from
-VITE_ROOT = https://myid.app.nbtca.space
+VITE_ROOT = "https://myid.app.nbtca.space"
 # the endpoint of a matomo installation. if omitted matomo tracking will be disabled
-VITE_MATOMO_ENDPOINT = Optional
-VITE_MATOMO_SITE_ID = Optional
+# VITE_MATOMO_ENDPOINT = Optional
+# VITE_MATOMO_SITE_ID = Optional
 
 ## Extra customisable options
 # the email in the footer of the dashboard
-VITE_SUPPORT_EMAIL = contact@nbtca.space
+VITE_SUPPORT_EMAIL = "contact@nbtca.space"
 # the url that users can visit to view the privacy policy/terms of service of your brand. needs to be a full url
-VITE_LEGAL_URL = https://github.com/nbtca
+VITE_LEGAL_URL = "https://github.com/nbtca"
 
 # settings for avatar nsfw checking. use in conjunction with https://github.com/t2vee/nsfwjs-avatar-service
 AVATAR_API = ""
