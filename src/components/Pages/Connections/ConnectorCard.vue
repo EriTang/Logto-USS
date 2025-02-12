@@ -96,12 +96,12 @@ const isDesktop = useMediaQuery('(min-width: 1023px)')
 
 <template>
   <Card
-    class="w-full bg-gradient-to-tl from-[#6c888e] to-30% transition-all duration-200 hover:to-60% hover:border-[#abd9e2] mb-4 p-4"
+    class="w-full p-4 cursor-pointer hover:bg-gray-200"
   >
     <Collapsible v-model:open="isOpen" @update:open="closeOther">
       <CollapsibleTrigger class="flex items-center align-middle justify-between w-full">
         <div class="flex gap-x-4">
-          <component :is="icon" color="white" />
+          <component :is="icon" color="black" />
           <p>{{ service }}</p>
         </div>
         <div class="flex gap-x-3">

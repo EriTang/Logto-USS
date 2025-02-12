@@ -188,7 +188,7 @@ const isDesktop = useMediaQuery('(min-width: 1023px)')
 <template>
   <UseTriggerTemplate>
     <Card
-        class="h-32 w-full bg-gradient-to-tl from-[#6c888e] to-30% transition-all duration-400 hover:to-60% hover:border-[#abd9e2] hover:cursor-pointer shadow-md shadow-gray-900 hover:shadow-black"
+        class="h-32 w-full cursor-pointer hover:bg-gray-100"
     >
       <CardHeader>
         <CardTitle class="flex justify-between text-lg">
@@ -378,7 +378,7 @@ const isDesktop = useMediaQuery('(min-width: 1023px)')
 
   <Card
       v-if="disabled"
-      class="h-32 w-full bg-gradient-to-tl from-gray-800 to-60% hover:cursor-default"
+      class="h-32 w-full"
   >
     <CardHeader>
       <CardTitle class="flex justify-between text-lg text-gray-500">

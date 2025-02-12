@@ -17,8 +17,8 @@ const userData = inject('userData')
     <CardDescription>
       Manage accounts and services you have linked to your account.
     </CardDescription>
-    <div class="my-10">
-      <ConnectorCard
+    <div class="my-10 flex flex-col gap-4">
+      <!-- <ConnectorCard
         :linked="Boolean(userData.identities.google)"
         :icon="GoogleIcon"
         service="Google"
@@ -33,7 +33,7 @@ const userData = inject('userData')
         :linked="Boolean(userData.identities.Spotify)"
         :icon="SpotifyIcon"
         service="Spotify"
-      />
+      /> -->
       <ConnectorCard
         :linked="Boolean(userData.identities.github)"
         :icon="GitHubIcon"

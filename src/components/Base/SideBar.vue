@@ -22,31 +22,31 @@ const sidebarNavItems = ref([
     icon: Cog,
     href: '/account/security'
   },
-  {
-    title: 'Privacy Settings',
-    icon: Cookie,
-    href: '/account/privacy'
-  },
+  // {
+  //   title: 'Privacy Settings',
+  //   icon: Cookie,
+  //   href: '/account/privacy'
+  // },
   {
     title: 'Connections',
     icon: Cable,
     href: '/account/connections'
   },
-  {
-    title: 'Your Data',
-    icon: LifeBuoy,
-    href: '/account/yourdata'
-  },
+  // {
+  //   title: 'Your Data',
+  //   icon: LifeBuoy,
+  //   href: '/account/yourdata'
+  // },
   {
     title: 'Account Actions',
     icon: AlertTriangle,
     href: '/account/dangerzone'
   },
-  {
-    title: 'Developer Options',
-    icon: Code,
-    href: '/account/developer'
-  }
+  // {
+  //   title: 'Developer Options',
+  //   icon: Code,
+  //   href: '/account/developer'
+  // }
 ])
 
 const handleNav = (navigate, page, key) => {

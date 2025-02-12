@@ -62,7 +62,7 @@ const isSheetOpen = ref(false)
       </BreadcrumbList>
     </Breadcrumb>
     <div class="flex align-middle desktop:space-x-1">
-      <Button
+      <!-- <Button
           class="desktop:h-8 w-9 rounded-xl border tablet:rounded-sm"
           variant="secondary"
           size="icon"
@@ -70,7 +70,7 @@ const isSheetOpen = ref(false)
       >
         <Sun v-if="isDark" color="black" />
         <Moon v-else />
-      </Button>
+      </Button> -->
       <Button @click="onClickSignOut" class="desktop:h-8 rounded-xl border tablet:rounded-sm">
         <DoorOpen :stroke-wdth="2.25" color="black" class="pr-1.5"  />
         Log Out

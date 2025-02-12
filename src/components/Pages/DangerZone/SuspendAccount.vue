@@ -90,7 +90,7 @@ const isDesktop = useMediaQuery('(min-width: 1023px)')
 
   <MfaVerificationDialog title="Suspend Your Account" edit :icon="OctagonPause">
     <template #default>
-      <Alert :class="`desktop:h-32 tablet:h-42 w-full bg-gradient-to-tl from-[#c2480c] to-30% transition-all duration-200 hover:to-60% hover:border-destructive hover:cursor-pointer`">
+      <Alert :class="'desktop:h-32 tablet:h-42 w-full hover:cursor-pointer hover:bg-red-50 hover:border-red-500'">
         <div class="flex items-center align-middle space-x-3">
           <OctagonPause color="#f67a3c"/>
           <AlertTitle class="flex justify-between text-lg text-destructive">Suspend Your Account</AlertTitle>
