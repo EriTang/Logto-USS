@@ -43,7 +43,7 @@ LOGTO_DEFAULT_RESOURCE = "https://default.logto.app/api"
 
 # settings for avatar nsfw checking. use in conjunction with https://github.com/t2vee/nsfwjs-avatar-service
 AVATAR_API = ""
-ENABLE_NSFW_CHECK = 1
+ENABLE_NSFW_CHECK = 0
 
 [placement]
 mode = "smart"
