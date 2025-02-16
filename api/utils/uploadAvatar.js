@@ -18,8 +18,9 @@ export default async function (env, accessToken, imageData, userId) {
 			headers,
 			body: uploadFormData
 		});
+	const res = await response.json()
 	if (!response.ok) {
-		console.error('Error accessing resource:', response);
+		console.error('Error accessing resource:', res);
 		return false;
 	}
 	return await response.json();
