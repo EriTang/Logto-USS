@@ -93,7 +93,7 @@ const isDesktop = useMediaQuery('(min-width: 1023px)')
           :size="isDesktop ? 'default' : 'lg'"
           :class="
             $route.path === item.href
-              ? 'text-black dark:text-cyan-200 bg-muted font-bold'
+              ? 'text-black dark:text-cyan-200 bg-muted'
               : 'text-black dark:text-white hover:bg-muted'
           "
           class="desktop:w-[185px] tablet:text-xl text-left justify-start"

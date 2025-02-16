@@ -5,8 +5,7 @@ import EditUsername from '@/components/Pages/PersonalInfo/EditUsername.vue'
 import EditRegionalSettings from '@/components/Pages/PersonalInfo/EditRegionalSettings.vue'
 import EditLocaleSettings from '@/components/Pages/PersonalInfo/EditLocaleSettings.vue'
 import EditFullName from '@/components/Pages/PersonalInfo/EditFullName.vue'
-import MfaVerificationDialog from "@/components/Global/MFAHelpers/MfaVerificationDialog.vue";
-import {CircleUserRound, DoorClosed} from "lucide-vue-next";
+import {CircleUserRound} from "lucide-vue-next";
 </script>
 
 <template>
@@ -20,8 +19,6 @@ import {CircleUserRound, DoorClosed} from "lucide-vue-next";
       be reached.
     </CardDescription>
     <div class="desktop:flex space-y-4 desktop:space-y-0 desktop:gap-4 mt-12">
-      <!--<EditPublicProfile/>-->
-      <MfaVerificationDialog disabled title="Public Profile" :icon="DoorClosed" desc="Open for more details" />
       <EditUsername />
     </div>
     <div class="desktop:flex space-y-4 desktop:space-y-0 desktop:gap-4 mt-4">
