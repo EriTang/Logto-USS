@@ -4,6 +4,7 @@
 
 export const createResponse = (format = 'text/plain; charset=utf-8', transform) =>
     (body, options = {}) => {
+        console.log('createResponse', { body, options })
         if (body === undefined || body instanceof Response) return body
 
         const response = new Response(transform?.(body) ?? body, options.url ? undefined : options)
