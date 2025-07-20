@@ -23,7 +23,7 @@ VITE_LOGTO_RESOURCES = '["https://default.logto.app/api"]' # <= do not change (t
 
 ## Extra endpoints
 # the url that the dashboard is served from
-VITE_ROOT = "https://myid.eri.osaka"
+VITE_ROOT = "https://myid.eri-66b.workers.dev"
 # the endpoint of a matomo installation. if omitted matomo tracking will be disabled
 # VITE_MATOMO_ENDPOINT = Optional
 # VITE_MATOMO_SITE_ID = Optional
